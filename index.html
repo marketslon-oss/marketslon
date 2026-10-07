@@ -24,6 +24,12 @@
         /* Анімований відео-фон */
         .bg-video-container { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; pointer-events: none; overflow: hidden; }
         .bg-video { width: 100vw; height: 100vh; object-fit: cover; opacity: 0.25; }
+@media (max-width: 768px) {
+    .bg-video {
+        object-fit: contain;
+        background-color: #f8fafc;
+    }
+}
 
         .btn { display: inline-block; background-color: var(--orange); color: #fff; padding: 14px 28px; border-radius: 6px; font-weight: bold; font-size: 1.1rem; transition: 0.3s; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(242, 115, 36, 0.3); }
         .btn:hover { background-color: #d9621b; transform: translateY(-2px); }
