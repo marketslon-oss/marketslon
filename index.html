@@ -24,12 +24,13 @@
         /* Анімований відео-фон */
         .bg-video-container { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; pointer-events: none; overflow: hidden; }
         .bg-video { width: 100vw; height: 100vh; object-fit: cover; opacity: 0.25; }
-@media (max-width: 768px) {
-    .bg-video {
-        object-fit: contain;
-        background-color: #f8fafc;
-    }
-}
+
+        @media (max-width: 768px) {
+            .bg-video {
+                object-fit: contain;
+                background-color: #f8fafc;
+            }
+        }
 
         .btn { display: inline-block; background-color: var(--orange); color: #fff; padding: 14px 28px; border-radius: 6px; font-weight: bold; font-size: 1.1rem; transition: 0.3s; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(242, 115, 36, 0.3); }
         .btn:hover { background-color: #d9621b; transform: translateY(-2px); }
@@ -121,7 +122,7 @@
         .scroll-top-btn svg { width: 26px; height: 26px; fill: white; }
 
         /* =========================================
-            КАСТОМНИЙ ВІДЖЕТ ЧАТУ (УВІЛИЧЕНЫЙ)
+            КАСТОМНИЙ ВІДЖЕТ ЧАТУ
             ========================================= */
         .custom-chat-wrapper {
             position: fixed;
@@ -250,7 +251,6 @@
             transition: 0.2s;
         }
         .chat-form button:hover { background-color: #23a0b0; }
-        /* ========================================= */
 
         /* Послуги (Картки) */
         .services { padding: 90px 0 40px 0; text-align: center; position: relative; z-index: 10; background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(8px); }
@@ -328,18 +328,21 @@
         
         <!-- Випадаюче меню -->
         <div id="messengerMenu" class="messenger-menu">
-            <a href="https://t.me/your_telegram_username" target="_blank" class="messenger-item">
+            <a href="https://t.me/A_max_N" target="_blank" class="messenger-item">
                 💬 Telegram
             </a>
-            <a href="viber://chat?number=%2B380991234567" class="messenger-item">
+            <a href="viber://chat?number=%2B380967055822" class="messenger-item">
                 📱 Viber
             </a>
-            <a href="mailto:hello@marketslon.com.ua" class="messenger-item">
+            <a href="https://wa.me/380967055822" target="_blank" class="messenger-item">
+                📞 WhatsApp
+            </a>
+            <a href="mailto:marketslon@gmail.com" class="messenger-item">
                 ✉️ Пошта
             </a>
         </div>
 
-        <a href="tel:+380991234567" class="widget-btn btn-phone" title="Зателефонувати">
+        <a href="tel:+380967055822" class="widget-btn btn-phone" title="Зателефонувати">
             <svg viewBox="0 0 24 24"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
         </a>
     </div>
@@ -479,9 +482,10 @@
             <p style="margin-bottom: 20px; color: #aab; font-size: 1.1rem;">Залиште свої контакти, і ми зв'яжемося з вами для обговорення деталей.</p>
             
             <div class="contact-info">
-                <p>
-                    Телефон: <a href="tel:+380991234567">+38 (099) 123-45-67</a> | 
-                    Email: <a href="mailto:hello@marketslon.com.ua">hello@marketslon.com.ua</a>
+                <p style="line-height: 1.8;">
+                    Телефон (Viber, WhatsApp): <a href="tel:+380967055822">+38 (096) 705-58-22</a><br>
+                    Telegram: <a href="https://t.me/A_max_N" target="_blank">@A_max_N</a> | 
+                    Email: <a href="mailto:marketslon@gmail.com">marketslon@gmail.com</a>
                 </p>
             </div>
             
